@@ -146,19 +146,6 @@ const Aisiem = () => {
               </ul>
             </section>
 
-            <section className="aisiem-text-section notice-section">
-              <h3>🚧 After Capstone Completion</h3>
-              <p><em>(Required by assignment)</em></p>
-              <p>Once the project is complete, I will update this portfolio page by:</p>
-              <ul>
-                <li>Adding final Splunk dashboard screenshots</li>
-                <li>Including a detailed architecture diagram</li>
-                <li>Showing a live chatbot interaction example</li>
-                <li>Documenting the final deployment architecture</li>
-                <li>Adding system evaluation results</li>
-                <li>Linking the GitHub repository and demo materials</li>
-              </ul>
-            </section>
           </div>
         </div>
       </div>
