@@ -7,8 +7,16 @@ import tempad from '../../assets/projects/tempad.svg';
 import roomio from '../../assets/projects/roomio.svg';
 import crossly from '../../assets/projects/crossly.svg';
 import petswipe from '../../assets/projects/petswipe.svg';
+import aisiem from '../../assets/projects/aisiem.svg';
 
 export const developmentProjects = [
+    {
+      title: "AI-SIEM Observability Platform (Capstone)",
+      description: "AI-SIEM observability platform that monitors LLM chatbot behavior in real time, detecting hallucinations, jailbreak attempts, bias, and compliance violations.",
+      image: aisiem,
+      tech: ['Python', 'FastAPI', 'Docker', 'Splunk'],
+      link: "/aisiem"
+    },
     {
       title: "Crossly",
       description: "Developed an interactive full-stack web application built with React and Node.js that generates custom crossword puzzles from user-inputted vocabulary terms and definitions.",

@@ -1,0 +1,164 @@
+.aisiem-hero {
+  width: 100%;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.aisiem-hero-title {
+  color: #473C35;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+  padding: 1rem 2rem;
+}
+
+@media (min-width: 769px) {
+  .aisiem-hero-title {
+    font-size: 2.5rem;
+  }
+}
+
+.aisiem-main-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 1rem 4rem 1rem;
+}
+
+.aisiem-section {
+  width: 100%;
+}
+
+.aisiem-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.aisiem-role {
+  color: #473C35;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0 0 0.5rem 0;
+  letter-spacing: 0.5px;
+}
+
+.aisiem-tech {
+  color: #666;
+  font-size: 1.1rem;
+  margin: 0;
+  font-weight: 500;
+}
+
+.aisiem-content {
+  color: #473C35;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+/* Typography and Section Styling */
+.aisiem-text-section {
+  margin-bottom: 3rem;
+  text-align: left;
+}
+
+.aisiem-text-section h3 {
+  color: #473C35;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #EBE3D5;
+  padding-bottom: 0.5rem;
+}
+
+.aisiem-text-section p {
+  margin-bottom: 1rem;
+}
+
+.aisiem-text-section ul,
+.aisiem-text-section ol {
+  margin-bottom: 1rem;
+  padding-left: 1.5rem;
+}
+
+.aisiem-text-section li {
+  margin-bottom: 0.5rem;
+}
+
+.aisiem-text-section strong {
+  color: #2D2622;
+}
+
+/* Process Timeline Layout */
+.process-timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.timeline-item {
+  background-color: #FAFAF7;
+  padding: 1.5rem;
+  border-radius: 12px;
+  border-left: 4px solid #473C35;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.timeline-item h4 {
+  margin: 0 0 1rem 0;
+  color: #473C35;
+  font-size: 1.2rem;
+}
+
+.timeline-item ul {
+  margin: 0;
+  padding-left: 1.2rem;
+}
+
+/* Notice Section */
+.notice-section {
+  background-color: #FFF8E7;
+  padding: 1.5rem;
+  border-radius: 12px;
+  border: 2px dashed #D2B48C;
+}
+
+.notice-section h3 {
+  border-bottom: none;
+  margin-bottom: 0.5rem;
+  padding-bottom: 0;
+  color: #8C6A3A;
+}
+
+.notice-section em {
+  display: block;
+  margin-bottom: 1rem;
+  color: #8C6A3A;
+}
+
+@media (min-width: 769px) {
+  .aisiem-main-content {
+    padding: 0 2rem 5rem 2rem;
+  }
+  
+  .aisiem-header {
+    margin-bottom: 4rem;
+  }
+  
+  .aisiem-role {
+    font-size: 2rem;
+  }
+  
+  .aisiem-tech {
+    font-size: 1.25rem;
+  }
+
+  .process-timeline {
+    flex-direction: row;
+  }
+  
+  .timeline-item {
+    flex: 1;
+  }
+}

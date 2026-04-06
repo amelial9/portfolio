@@ -1,9 +1,11 @@
+import { Link } from 'react-router-dom';
 import './Projects.css';
 import { developmentProjects, prototypeProjects } from './ProjectData';
 import githubIcon from '../../assets/githublink.svg';
 import linkIcon from '../../assets/link.svg';
 
 function ProjectLinks({ project }) {
+  const isInternal = project.link && project.link.startsWith('/');
   return (
     <div className="project-links">
       {project.github && (
@@ -11,11 +13,15 @@ function ProjectLinks({ project }) {
           <img src={githubIcon} alt="GitHub" />
         </a>
       )}
-      {project.link && (
+      {isInternal ? (
+        <Link to={project.link} className="project-link">
+          <img src={linkIcon} alt="Live Demo" />
+        </Link>
+      ) : project.link ? (
         <a href={project.link} target="_blank" rel="noopener noreferrer" className="project-link">
           <img src={linkIcon} alt="Live Demo" />
         </a>
-      )}
+      ) : null}
       {project.presentation && (
         <a href={project.presentation} target="_blank" rel="noopener noreferrer" className="project-link">
           <span>Presentation</span>
